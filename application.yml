@@ -1,6 +1,4 @@
 spring:
-  #Application name
-  application.name: "mail-microservice"
   #Mailserver config
   mail:
     host: ${SMTP_HOST}
@@ -23,6 +21,3 @@ spring:
     username: ${DB_USER}
     password: ${DB_PASS}
     driver-class-name: "org.postgresql.Driver"
-
-  #Actuator
-management.endpoints.web.exposure.include: "*"
